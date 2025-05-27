@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GOKU-BIBEL</title>
+    <style>
+        /* Dein bisheriger CSS-Code bleibt unverändert */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f5dc, #e6e6dc);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.9);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .testament-section {
+            width: 45%;
+            min-width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        .testament-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 28px;
+            font-weight: bold;
+            color: #34495e;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .testament-header span {
+            color: red;
+        }
+        .book-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .book-button {
+            background: linear-gradient(145deg, #3498db, #2980b9);
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .book-button:hover {
+            background: linear-gradient(145deg, #2980b9, #21618c);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+        }
+        .chapter-count {
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .chapters {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        .chapter-button {
+            background: #2ecc71;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+        }
+        .chapter-button:hover {
+            background: #27ae60;
+        }
+        @media (max-width: 768px) {
+            .testament-section {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+        .main-title {
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 900;
+            color: #2c3e50;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin: 20px 0 40px 0;
+            user-select: none;
+        }
+        /* Chapter Content Styles */
+        .chapter-content {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 1000;
+            overflow-y: auto;
+        }
+        .chapter-modal {
+            background: white;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 900px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            position: relative;
+        }
+        .chapter-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+        }
+        .chapter-title {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .verse {
+            margin-bottom: 25px;
+            padding: 15px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 8px;
+            border-left: 5px solid #3498db;
+        }
+        .verse-number {
+            font-weight: bold;
+            color: #e74c3c;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        .verse-text {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-style: italic;
+            background: white;
+            padding: 12px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .verse-explanation {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #555;
+            padding: 10px;
+            background: rgba(52, 152, 219, 0.1);
+            border-radius: 5px;
+        }
+        .close-button {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .close-button:hover {
+            background: #c0392b;
+        }
+        .back-button {
+            background: #95a5a6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .back-button:hover {
+            background: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-title">BIBEL-GOKU</div>
+
+    <div class="container" id="main-container">
+        <div class="testament-section">
+            <div class="testament-header">
+                <span>Altes Testament</span> 
+                <span>(<span style="color:red">39 Bücher</span>)</span>
+            </div>
+            <div class="book-list" id="old-testament"></div>
+        </div>
+
+        <div class="testament-section">
+            <div class="testament-header">
+                <span>Neues Testament</span> 
+                <span>(<span style="color:red">27 Bücher</span>)</span>
+            </div>
+            <div class="book-list" id="new-testament"></div>
+        </div>
+    </div>
+
+    <!-- Kapitelanzeige Modal -->
+    <div class="chapter-content" id="chapter-content">
+        <div class="chapter-modal" id="chapter-modal">
+            <button class="close-button" onclick="closeChapter()">&times;</button>
+            <div id="chapter-text"></div>
+            <button class="back-button" onclick="showChapters()">Zurück zu Kapiteln</button>
+        </div>
+    </div>
+
+    <script>
+        const oldTestamentBooks = [
+            { name: "Genesis", chapters: 50 }, { name: "Exodus", chapters: 40 },
+            { name: "Levitikus", chapters: 27 }, { name: "Numeri", chapters: 36 },
+            { name: "Deuteronomium", chapters: 34 }, { name: "Josua", chapters: 24 },
+            { name: "Richter", chapters: 21 }, { name: "Ruth", chapters: 4 },
+            { name: "1. Samuel", chapters: 31 }, { name: "2. Samuel", chapters: 24 },
+            { name: "1. Könige", chapters: 22 }, { name: "2. Könige", chapters: 25 },
+            { name: "1. Chronik", chapters: 29 }, { name: "2. Chronik", chapters: 36 },
+            { name: "Esra", chapters: 10 }, { name: "Nehemia", chapters: 13 },
+            { name: "Esther", chapters: 10 }, { name: "Hiob", chapters: 42 },
+            { name: "Psalmen", chapters: 150 }, { name: "Sprüche", chapters: 31 },
+            { name: "Prediger", chapters: 12 }, { name: "Hoheslied", chapters: 8 },
+            { name: "Jesaja", chapters: 66 }, { name: "Jeremia", chapters: 52 },
+            { name: "Klagelieder", chapters: 5 }, { name: "Hesekiel", chapters: 48 },
+            { name: "Daniel", chapters: 12 }, { name: "Hosea", chapters: 14 },
+            { name: "Joel", chapters: 3 }, { name: "Amos", chapters: 9 },
+            { name: "Obadja", chapters: 1 }, { name: "Jona", chapters: 4 },
+            { name: "Micha", chapters: 7 }, { name: "Nahum", chapters: 3 },
+            { name: "Habakuk", chapters: 3 }, { name: "Zefanja", chapters: 3 },
+            { name: "Haggai", chapters: 2 }, { name: "Sacharja", chapters: 14 },
+            { name: "Maleachi", chapters: 4 }
+        ];
+
+        const newTestamentBooks = [
+            { name: "Matthäus", chapters: 28 }, { name: "Markus", chapters: 16 },
+            { name: "Lukas", chapters: 24 }, { name: "Johannes", chapters: 21 },
+            { name: "Apostelgeschichte", chapters: 28 }, { name: "Römer", chapters: 16 },
+            { name: "1. Korinther", chapters: 16 }, { name: "2. Korinther", chapters: 13 },
+            { name: "Galater", chapters: 6 }, { name: "Epheser", chapters: 6 },
+            { name: "Philipper", chapters: 4 }, { name: "Kolosser", chapters: 4 },
+            { name: "1. Thessalonicher", chapters: 5 }, { name: "2. Thessalonicher", chapters: 3 },
+            { name: "1. Timotheus", chapters: 6 }, { name: "2. Timotheus", chapters: 4 },
+            { name: "Titus", chapters: 3 }, { name: "Philemon", chapters: 1 },
+            { name: "Hebräer", chapters: 13 }, { name: "Jakobus", chapters: 5 },
+            { name: "1. Petrus", chapters: 5 }, { name: "2. Petrus", chapters: 3 },
+            { name: "1. Johannes", chapters: 5 }, { name: "2. Johannes", chapters: 1 },
+            { name: "3. Johannes", chapters: 1 }, { name: "Judas", chapters: 1 },
+            { name: "Offenbarung", chapters: 22 }
+        ];
+
+        // Beispiel-Daten: Verse für Johannes Kapitel 1 mit Erklärung
+        const bibleData = {
+            "Johannes": {
+                1: [
+                    {
+                        number: 1,
+                        text: "Im Anfang war das Wort, und das Wort war bei Gott, und das Wort war Gott.",
+                        explanation: "Das 'Wort' bezeichnet hier Jesus, der schon von Anfang an bei Gott war und selbst Gott ist."
+                    },
+                    {
+                        number: 2,
+                        text: "Dasselbe war im Anfang bei Gott.",
+                        explanation: "Jesus war immer bei Gott, schon vor allem, was geschaffen wurde."
+                    },
+                    {
+                        number: 3,
+                        text: "Alle Dinge sind durch dasselbe gemacht, und ohne dasselbe ist nichts gemacht, was gemacht ist.",
+                        explanation: "Alles wurde durch Jesus erschaffen, ohne ihn gäbe es nichts."
+                    },
+                    {
+                        number: 4,
+                        text: "In ihm war das Leben, und das Leben war das Licht der Menschen.",
+                        explanation: "Jesus ist die Quelle allen Lebens und bringt Licht in das Dunkel der Welt."
+                    },
+                    {
+                        number: 5,
+                        text: "Und das Licht scheint in der Finsternis, und die Finsternis hat’s nicht ergriffen.",
+                        explanation: "Das Licht Jesu erleuchtet die Dunkelheit, die es nicht überwinden kann."
+                    }
+                    // Hier kannst du weitere Verse ergänzen
+                ]
+            }
+            // Weitere Bücher und Kapitel können hier ergänzt werden
+        };
+
+        // Hilfsfunktion zum Erstellen eines Buttons
+        function createButton(text, className, onClick) {
+            const btn = document.createElement("button");
+            btn.textContent = text;
+            btn.className = className;
+            btn.addEventListener("click", onClick);
+            return btn;
+        }
+
+        // Bücher im Testament anzeigen
+        function displayBooks(books, containerId) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = ""; // clear
+
+            books.forEach(book => {
+                const btn = createButton(book.name, "book-button", () => showChaptersForBook(book));
+                const countSpan = document.createElement("span");
+                countSpan.textContent = book.chapters;
+                countSpan.className = "chapter-count";
+                btn.appendChild(countSpan);
+                container.appendChild(btn);
+            });
+        }
+
+        // Kapitelbuttons anzeigen
+        let currentBook = null; 
+        let currentTestamentContainer = null;
+        function showChaptersForBook(book) {
+            currentBook = book;
+            const containerId = oldTestamentBooks.some(b => b.name === book.name) ? "old-testament" : "new-testament";
+            currentTestamentContainer = document.getElementById(containerId);
+
+            // Zuerst alle Buch-Buttons ausblenden
+            [...currentTestamentContainer.children].forEach(child => child.style.display = "none");
+
+            // Container für Kapitel-Buttons erzeugen oder leeren
+            let chaptersContainer = document.getElementById("chapters-container");
+            if (!chaptersContainer) {
+                chaptersContainer = document.createElement("div");
+                chaptersContainer.id = "chapters-container";
+                chaptersContainer.className = "chapters";
+                currentTestamentContainer.appendChild(chaptersContainer);
+            }
+            chaptersContainer.innerHTML = "";
+
+            // Kapitel-Buttons erzeugen
+            for (let i = 1; i <= book.chapters; i++) {
+                const chapterBtn = createButton(i, "chapter-button", () => showChapterContent(book.name, i));
+                chaptersContainer.appendChild(chapterBtn);
+            }
+
+            // "Zurück"-Button
+            const backBtn = createButton("Zurück zu Büchern", "back-button", () => {
+                chaptersContainer.remove();
+                [...currentTestamentContainer.children].forEach(child => child.style.display = "flex");
+            });
+            currentTestamentContainer.appendChild(backBtn);
+        }
+
+        // Kapitelinhalt anzeigen
+        function showChapterContent(bookName, chapterNumber) {
+            const chapterContent = document.getElementById("chapter-content");
+            const chapterTextDiv = document.getElementById("chapter-text");
+            chapterTextDiv.innerHTML = "";
+
+            // Überschrift
+            const header = document.createElement("div");
+            header.className = "chapter-header";
+            header.innerHTML = `<div class="chapter-title">${bookName} Kapitel ${chapterNumber}</div>`;
+            chapterTextDiv.appendChild(header);
+
+            // Verse laden (falls vorhanden)
+            const verses = bibleData[bookName] && bibleData[bookName][chapterNumber];
+            if (verses && verses.length > 0) {
+                verses.forEach(verse => {
+                    const verseDiv = document.createElement("div");
+                    verseDiv.className = "verse";
+
+                    const numberDiv = document.createElement("div");
+                    numberDiv.className = "verse-number";
+                    numberDiv.textContent = "Vers " + verse.number;
+                    verseDiv.appendChild(numberDiv);
+
+                    const textDiv = document.createElement("div");
+                    textDiv.className = "verse-text";
+                    textDiv.textContent = verse.text;
+                    verseDiv.appendChild(textDiv);
+
+                    const explanationDiv = document.createElement("div");
+                    explanationDiv.className = "verse-explanation";
+                    explanationDiv.textContent = verse.explanation;
+                    verseDiv.appendChild(explanationDiv);
+
+                    chapterTextDiv.appendChild(verseDiv);
+                });
+            } else {
+                chapterTextDiv.innerHTML += "<p>Keine Verse verfügbar.</p>";
+            }
+
+            // Kapitel anzeigen
+            chapterContent.style.display = "block";
+
+            // Kapitel-Buttons verstecken
+            const chaptersContainer = document.getElementById("chapters-container");
+            if (chaptersContainer) chaptersContainer.style.display = "none";
+
+            // "Zurück zu Kapiteln" Button im Modal sichtbar machen
+        }
+
+        // Kapitel Modal schließen
+        function closeChapter() {
+            document.getElementById("chapter-content").style.display = "none";
+            // Kapitel-Buttons wieder anzeigen
+            const chaptersContainer = document.getElementById("chapters-container");
+            if (chaptersContainer) chaptersContainer.style.display = "flex";
+        }
+
+        // Zurück zu Kapitelübersicht im Modal
+        function showChapters() {
+            const chapterContent = document.getElementById("chapter-content");
+            const chapterTextDiv = document.getElementById("chapter-text");
+            chapterTextDiv.innerHTML = "";
+            chapterContent.style.display = "none";
+
+            // Kapitel-Buttons wieder anzeigen
+            const chaptersContainer = document.getElementById("chapters-container");
+            if (chaptersContainer) chaptersContainer.style.display = "flex";
+        }
+
+        // Starte mit Anzeige der Bücher
+        displayBooks(oldTestamentBooks, "old-testament");
+        displayBooks(newTestamentBooks, "new-testament");
+    </script>
+</body>
+</html>
