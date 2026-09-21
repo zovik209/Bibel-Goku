@@ -1,0 +1,25 @@
+#EXTM3U
+#EXTINF:-1 group-title="Balkan TV",HRT 1
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT1/default/index.mpd
+#EXTINF:-1 group-title="Balkan TV",HRT 2
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT2/default/index.mpd
+#EXTINF:-1 group-title="Balkan TV",HRT 3
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT3/default/index.mpd
+#EXTINF:-1 group-title="Balkan TV",HRT 4
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT4/default/index.mpd
+#EXTINF:-1 group-title="Balkan TV",Nova S
+https://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&player=m3u8&sp=novas&stream=hp7000&u=novas
+#EXTINF:-1 group-title="Balkan TV",RTV Novi Pazar
+https://tv.rtvnp.rs/stream.m3u8
+#EXTINF:-1 group-title="Balkan TV",RTV Zenica
+https://stream.rtvze.ba/live/123/123.m3u8
+#EXTINF:-1 group-title="Balkan TV",RTCG 1
+https://rtcg-live-open.morescreens.com/RTCG_1_004/playlist.m3u8
+#EXTINF:-1 group-title="Balkan TV",TV Jadran
+https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
+#EXTINF:-1 group-title="Balkan TV",Hram
+https://vod1.laki.eu/live/hram/index.m3u8
+#EXTINF:-1 group-title="Balkan TV",SOS Kanal Plus
+https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8
+#EXTINF:-1 group-title="Balkan TV",MyStream
+https://pool.alter-media.hr:1936/live/myStream/playlist.m3u8?DVR=
