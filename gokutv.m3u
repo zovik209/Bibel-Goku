@@ -18,6 +18,15 @@ https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/RTL/default/index.mpd
 #EXTINF:-1 group-title="Kroatien",RTL 2
 https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/RTL2/default/index.mpd
 
+#EXTINF:-1 group-title="Kroatien",Cmc
+https://stream.cmctv.hr:49998/cmc/live.m3u8
+
+#EXTINF:-1 group-title="Kroatien",Klape i Tambure
+https://stream.cmctv.hr:49998/kit/live.m3u8
+
+#EXTINF:-1 group-title="Kroatien",Libertas Tv
+https://stream.luci.xyz/hls/LTV.m3u8
+
 
 #EXTINF:-1 group-title="Bosnien",RTV BN
 https://stream2.rtvbn.tv:8080/live_1935/bnstream/index.m3u8
@@ -90,6 +99,16 @@ https://dash4.antik.sk/live/test_vox_tizen/playlist.m3u8
 
 #EXTINF:-1 group-title="Deutschland",Kabel Eins
 https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
+
+#EXTINF:-1 group-title="Deutschland",Kika
+https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-540p-1600.m3u8
+
+#EXTINF:-1 group-title="Deutschland",Wdr
+https://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8
+
+#EXTINF:-1 group-title="Deutschland",Welt der Wunder
+https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
+
 
 
 
