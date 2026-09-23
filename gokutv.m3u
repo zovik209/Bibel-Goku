@@ -27,12 +27,17 @@ https://stream.cmctv.hr:49998/kit/live.m3u8
 #EXTINF:-1 group-title="Kroatien",Libertas Tv
 https://stream.luci.xyz/hls/LTV.m3u8
 
+#EXTINF:-1 group-title="Kroatien",Televizija M
+https://live.tv-m.net/hls/stream.m3u8
 
 #EXTINF:-1 group-title="Bosnien",RTV BN
 https://stream2.rtvbn.tv:8080/live_1935/bnstream/index.m3u8
 
 #EXTINF:-1 group-title="Bosnien",RTV Zenica
 https://stream.rtvze.ba/live/123/123.m3u8
+
+#EXTINF:-1 group-title="Bosnien",Super
+https://lbgo.bozztv.com/ssh101/ssh101/televizijasuper/chunks.m3u8?lb_backend_hint=6
 
 #EXTINF:-1 group-title="Bosnien",RTV Puls Brčko
 https://tv.rtvpulsbrcko.ba:8001/live/index.m3u8
@@ -66,6 +71,16 @@ https://edge-rs-03.maksnet.tv/soskanalplus/soskanalplus.stream/chunklist_w175478
 
 #EXTINF:-1 group-title="Serbien",RTRS
 https://parh.rtrs.tv/tv/live/chunklist_w463839820.m3u8
+
+#EXTINF:-1 group-title="Serbien",Elita 1
+https://kinowatch.com/play/7iUBDLLtolbYkPjcH0aqvn57WTzt3zQysUCd7O-R7dk/.m3u8
+
+
+#EXTINF:-1 group-title="Serbien",Elita 2
+https://kinowatch.com/play/7iUBDLLtolbYkPjcH0aqvtNGc9mMD_EpQTr4aFcnp_M/.m3u8
+
+#EXTINF:-1 group-title="Serbien",Elita 3
+https://kinowatch.com/play/7iUBDLLtolbYkPjcH0aqvr-7H7_SGSd60_ZZh6sO-YM/.m3u8
 
 
 #EXTINF:-1 group-title="Montenegro",RTCG 1
