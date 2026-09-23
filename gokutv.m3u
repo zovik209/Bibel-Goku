@@ -49,6 +49,16 @@ https://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&play
 https://tv.rtvnp.rs/stream.m3u8
 
 
+#EXTINF:-1 group-title="Serbien",Kurir
+https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/480p/480p.m3u8
+
+#EXTINF:-1 group-title="Serbien",SosKanal
+https://edge-rs-03.maksnet.tv/soskanalplus/soskanalplus.stream/chunklist_w1754781706.m3u8
+
+#EXTINF:-1 group-title="Serbien",RTRS
+https://parh.rtrs.tv/tv/live/chunklist_w463839820.m3u8
+
+
 #EXTINF:-1 group-title="Montenegro",RTCG 1
 https://rtcg-live-open.morescreens.com/RTCG_1_004/media_3.m3u8
 
