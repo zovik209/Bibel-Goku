@@ -21,6 +21,15 @@ https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/RTL2/default/index.mpd
 #EXTINF:-1 group-title="Kroatien",Cmc
 https://stream.cmctv.hr:49998/cmc/live.m3u8
 
+#EXTINF:-1 group-title="Kroatien",StiTv
+https://live.leveex.hr/hls/live.m3u8
+
+#EXTINF:-1 group-title="Kroatien",Fm Hit
+https://peer2.tdiradio.com/static/streaming-playlists/hls/bab99862-ec1c-474f-9a02-4f8c8677d565/0.m3u8
+
+#EXTINF:-1 group-title="Kroatien",Tv Nova
+https://stream.agatin.hr:3727/live/tvnovalive.m3u8
+
 #EXTINF:-1 group-title="Kroatien",Klape i Tambure
 https://stream.cmctv.hr:49998/kit/live.m3u8
 
@@ -35,6 +44,9 @@ https://stream2.rtvbn.tv:8080/live_1935/bnstream/index.m3u8
 
 #EXTINF:-1 group-title="Bosnien",RTV Zenica
 https://stream.rtvze.ba/live/123/123.m3u8
+
+#EXTINF:-1 group-title="Bosnien",Novi Pazar HD
+https://tv.rtvnp.rs/stream.m3u8
 
 #EXTINF:-1 group-title="Bosnien",Super
 https://lbgo.bozztv.com/ssh101/ssh101/televizijasuper/chunks.m3u8?lb_backend_hint=6
@@ -62,6 +74,9 @@ https://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&play
 #EXTINF:-1 group-title="Serbien",RTV Novi Pazar
 https://tv.rtvnp.rs/stream.m3u8
 
+#EXTINF:-1 group-title="Serbien",Pi Kanal
+https://stream.pikanal.rs/pikanal/pgm.m3u8
+
 
 #EXTINF:-1 group-title="Serbien",Kurir
 https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/480p/480p.m3u8
@@ -71,6 +86,12 @@ https://edge-rs-03.maksnet.tv/soskanalplus/soskanalplus.stream/chunklist_w175478
 
 #EXTINF:-1 group-title="Serbien",RTRS
 https://parh.rtrs.tv/tv/live/chunklist_w463839820.m3u8
+
+#EXTINF:-1 group-title="Serbien",Hram
+https://vod1.laki.eu/live/hram/index.m3u8
+
+#EXTINF:-1 group-title="Serbien",RTCG
+https://rtcg-live-open.morescreens.com/RTCG_1_004/playlist.m3u8
 
 #EXTINF:-1 group-title="Serbien",Elita 1
 https://kinowatch.com/play/7iUBDLLtolbYkPjcH0aqvn57WTzt3zQysUCd7O-R7dk/.m3u8
@@ -89,6 +110,12 @@ https://rtcg-live-open.morescreens.com/RTCG_1_004/media_3.m3u8
 
 #EXTINF:-1 group-title="Österreich",ORF 3
 https://orf3.mdn.ors.at/orf/orf3/qxa/orf3-video=5299600.m3u8
+
+#EXTINF:-1 group-title="Österreich",Okto
+https://cdn3.wowza.com/1/MHFtazJReW5rOFhP/N2NWNDZ2/hls/23clbdsv/1080/chunklist.m3u8
+
+#EXTINF:-1 group-title="Österreich",Tirol Tv
+https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
 
 #EXTINF:-1 group-title="Österreich",OE24
 https://oe24.mdn.ors.at/live/eds/oe24tv_hd/hls_nodrm/oe24tv_hd-avc1_3400000=10003.m3u8
@@ -115,8 +142,27 @@ https://dash4.antik.sk/live/test_vox_tizen/playlist.m3u8
 #EXTINF:-1 group-title="Deutschland",Kabel Eins
 https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
 
+#EXTINF:-1 group-title="Deutschland",Arte
+https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8
+
+#EXTINF:-1 group-title="Deutschland",SIX
+https://dash4.antik.sk/live/test_sixx_tizen/playlist.m3u8
+
 #EXTINF:-1 group-title="Deutschland",Kika
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-540p-1600.m3u8
+
+
+#EXTINF:-1 group-title="Deutschland",sat1 gold
+https://dash4.antik.sk/live/test_sat_eins_gold_tizen/playlist.m3u8
+
+#EXTINF:-1 group-title="Deutschland",3 Sat
+https://dash4.antik.sk/live/test_drei_sat_tizen/playlist.m3u8
+
+#EXTINF:-1 group-title="Deutschland",NTV
+https://dash4.antik.sk/live/test_ntv_tizen/playlist.m3u8
+
+#EXTINF:-1 group-title="Deutschland",MDR
+https://dash4.antik.sk/live/test_mdr_tizen/playlist.m3u8
 
 #EXTINF:-1 group-title="Deutschland",Wdr
 https://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8
@@ -124,6 +170,9 @@ https://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8
 #EXTINF:-1 group-title="Deutschland",Welt der Wunder
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
 
+
+#EXTINF:-1 group-title="Kosovo",Girafa
+https://gjirafa-video-live.gjirafa.net/gjvideo-live/j3a-n14-2pf-g3s/tracks-v1a1/mono.ts.m3u8
 
 
 
