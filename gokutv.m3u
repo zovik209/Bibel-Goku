@@ -90,6 +90,9 @@ https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/480
 #EXTINF:-1 group-title="Serbien",SosKanal
 https://edge-rs-03.maksnet.tv/soskanalplus/soskanalplus.stream/chunklist_w1754781706.m3u8
 
+#EXTINF:-1 group-title="Serbien",Balkanika
+http://109.205.187.150:8008/sunshine/mHVTkG7bxG_r1ocezbJ-niCsxpUOnUKTQxNBEOQHhHAs_PqPUC_pTwVwONot_1g3C4axZtmpthIrx583k2SkgNztZPbIkAk3d6_tse5xAaDGZshxTNVNctN96L2kmD8NiBACOSjkOl1k2h-falllWa-RL15Y-Y2CLcHQoVP0CAg28tebbsSAqNGjgGHz3kUcejHimnjGp5ROryIP0J0QhdxQUQzM6caURMdjXCKU5unRhnaPPqrKaMaXk62-cVdQCo-AAswXAyVbEWpfxvbd-pBK1iVtW5KdNMLIYDkgy9c/hls/index.m3u8
+
 #EXTINF:-1 group-title="Serbien",RTRS
 https://parh.rtrs.tv/tv/live/chunklist_w463839820.m3u8
 
@@ -180,8 +183,7 @@ https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
 #EXTINF:-1 group-title="Kosovo",Girafa
 https://gjirafa-video-live.gjirafa.net/gjvideo-live/j3a-n14-2pf-g3s/tracks-v1a1/mono.ts.m3u8
 
-#EXTINF:-1 group-title="TV Andere",Balkanika
-http://117.55.203.160:8008/sunshine/PbqRdEfX0jXw-hLrZf6YI1dlU_33AIDrbcYxcwGZacBudCFxCVvq6j3fPwdXeTThmCOwghHzCBSWQdtoPDZpwYBXvNNQx2yZI8qboveu5uqWamZe9wLZf7j7A-MiUlO6wu5nUESjy9klVtjfMzkN0xOnkTer2NfFJVoB7JyN6fY39qy3Ppy1TbKUBm6yjhMQCaP_Z5FRtfF78qSR0iAbByzHjJcttGmeZhlpjPoCmV5j3G81lbW8LKWayEFFMLv3zgOvsu5vKiOoiQjvWtlz_rHoJfWfJqbCN9BFhvhY_Fg/hls/index.m3u8
+
 
 
 
