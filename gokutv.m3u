@@ -15,6 +15,9 @@ https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT4/default/index.mpd
 #EXTINF:-1 group-title="Kroatien",RTL Hrvatska
 https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/RTL/default/index.mpd
 
+#EXTINF:-1 group-title="Kroatien",24 KITCHEN
+http://117.55.202.231:8008/sunshine/OCoZCczbXmdyZfStxthcUlL3kwP_gk-z7QLyjYQ84ncACoh6N2GfOM6g9ZE8q5ZT_BWwZJWJC-wdhbzZ3OrFunZ8z4zMuj-09Cf546NF77py99blJKaCcWFnyFUeE_Ah0OlY4K4WkfmoYJhCiyV8eBRqz1AqJX-5jC6dwwxzYSLou8jYEt-fIYlnlxtWuiZUHMX42tT3b5VEJjHIESLEqkdF5WT4yQsjXRrTF891XyGVvFdm0P8WYQA7TrHcJ28eo_yZLow5ySQyTr7MSrwCzx4m_V7cX1V6I_H6xPSfGLs/hls/index.m3u8
+
 #EXTINF:-1 group-title="Kroatien",RTL 2
 https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/RTL2/default/index.mpd
 
