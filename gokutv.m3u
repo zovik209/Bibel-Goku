@@ -54,6 +54,9 @@ https://stream2.rtvbn.tv:8080/live_1935/bnstream/index.m3u8
 #EXTINF:-1 group-title="Bosnien",RTV Zenica
 https://stream.rtvze.ba/live/123/123.m3u8
 
+#EXTINF:-1 group-title="Bosnien",otv valentino
+http://117.55.202.236:8008/sunshine/xN97O-zmwVAnczerBn4TZH1Kr0DcDdQHRpMcn48EH9EU4Z2c-Wr_C-vrH-4TBoQqqxp7f-4pfZk1A5tOCZjXhNnif8OnwbcCqteR3jpO-i48eeukm0dibt6alohDd8eTrWysaaNPnefEhCT806Ze8rkVC4wNmceXoHWfzoY5_6XiOZx7pkL4RvKOPn83fgo2w6NSwB0WCiQoF9zTUqm_U4flHaDUrRIJQIesZ4oJl3hRCca0xR6-b3GveE_PH-0D2ybHEpK3sCByPnPMjX12eVQrx0X4YlFuXPf1UNx2Vlc/hls/index.m3u8
+
 #EXTINF:-1 group-title="Bosnien",Novi Pazar HD
 https://tv.rtvnp.rs/stream.m3u8
 
@@ -311,8 +314,7 @@ https://orf2w-247.mdn.ors.at/orf/orf2w/drmqxa-247/manifest.mpd?offset=5&begin=20
 #EXTINF:-1 group-title="TV Andere",aurora tv
 https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/cUT3p5XF-EEo8qPTo0dvA1TiPadkG1ss_ejw7X2H_nUcM-hCU0UimAQ0iG4cSHs09miS2z8-8KWajxSX9aWActu6sjqCZ6XjyYKyA-8NwZSLkivp1IbuenjoX9HAWrf__6gGJJ95rtYg5yzYlLefs_jLbujnWM-uWA42XqKZ_0dCnezVFk2tFhDLCN8KPkjlyVgpI3irA8VXKYMxWFLJ9CwTXu4iHNLS7eVx10sz8iL2rRWzyiNPmL0k1EF9H-fhefk-D1Ls6AuvHWHT8AGa1TR4GYuH8aZ_bIZ1o3JbI94/hls/index.m3u8
 
-#EXTINF:-1 group-title="TV Andere",otv valentino
-http://117.55.202.236:8008/sunshine/efne20lCxcySWLh7w3jx380VaXuaoOJrO8AYJWrkLH51OCMpfJ4XmnUxRE1cdjbCI4w355-TzFp5MrcSOEb8AgNqvIHeIrXnHOw7vV9qzhVwb3fAr0pyBWU-svIIBJ6S9wxokCM4JBohXKc9FsSQ55z1F2iEEueUSToMOMMc-r0RofLq4fHJWr0CLhzmIFu-RzX8BkQTSJgZ16aTAFu3g3e9vBlJD3ieAIYeXfJKgBBSwQqwCvhad5ps5VRuKnjZ9nrnIT1xAJGLqf-jh-tG3D_yFze49NMeaLVOX6eGCmM/hls/index.m3u8
+
 
 #EXTINF:-1 group-title="TV Andere",posavina tv
 https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/uRjb-KUkEMcSd-kOeSmgsVkRRkOJB4R67_hK0RBV90eiEitgcJHfaNPJibi0UH9myBUmu4-dR4zxOErJ-JS0N4-SAC-TfAiJMws5VamvgRMglaBF6H-NZYSG8tvAoPeGfIhmBQkC9TDLT6Au5XYQmwS0VGEfXBFQ9RpRrKVL2na32fbWqnp3y1xDod0vpA-GD4cGXthbDhYszrl1B1GM6IX4y8dGfiD17YtMVFs9PUbA8Nx-OLI-sc2u3DvOKsaiN6ADsKurrH_ltZUi_w4XimcG0tr-NJemebBwmYF_lRM/hls/index.m3u8
