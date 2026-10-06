@@ -24,6 +24,9 @@ https://stream.cmctv.hr:49998/cmc/live.m3u8
 #EXTINF:-1 group-title="Kroatien",StiTv
 https://live.leveex.hr/hls/live.m3u8
 
+#EXTINF:-1 group-title="Kroatien",face tv
+http://117.55.202.236:8008/sunshine/-ZWnYqgOMZYuSBfwKWQHnm5JltwiHPEyAoChdGs12FfqljocgyA8gUoxWdBXHy-oJVp41uc535NQitQkR0CmhCngUdG3l0cCbMf-CR-vDlhuLVUtkLYb4d0cHGpvuBDvgQc8UjBwRoC-DpkAnHmlSGasrFoHdFVv6mGtg37tI1eWvHPyevS7GiATSNH02NpfyiE-4qVwfQtR63ImdbuRhpFx3BZDw_MQOBui5KpvVd_tzrwGZZyRhEzrpg-MQWjChpkm25kTxZGc1fC120RHjTBjO_Zc6bBPVI_DZxPV6D0/hls/index.m3u8
+
 #EXTINF:-1 group-title="Kroatien",Fm Hit
 https://peer2.tdiradio.com/static/streaming-playlists/hls/bab99862-ec1c-474f-9a02-4f8c8677d565/0.m3u8
 
@@ -321,10 +324,9 @@ https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/YFaTlKAosqE-549LyZ
 https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/wt688rzNNbXYRQbk_je_3uI6euaKFA60dRnXuC5mWpxLYPKlzLQ-4NOVS20APmpDO4GObZ9gCmCKJtUNBxnQlbuLAvwOnCNCdjl3PMKffSepSTw8swOVrHrRrXUkkU3O3MtDkUIFSqEEQBgGh5lSDvnjqvTiQ8cVlK-p3KY0hFy4jU99ufYUrSR_Yhg8C7aPYenqP1jigQwgrCySr_TUOti6aSP_1FX6oWkdDzB6wI-K8Tj6ulHy3a2xiMiKIFJz1jfoa7PZZGyyfG9Shxhll-90umcim4xqzkpZOXsbnEI/hls/index.m3u8
 
 #EXTINF:-1 group-title="TV Andere",doma tv
-http://117.55.202.231:8008/sunshine/5CHo6r3KK90C33W7OCeuErARDMtTdocgQDk2JmhYuSvny6D1kzLepkbIEKgejN_bUKI-kD4INJUjqccVoeszNatzyIswLHqlSao2ccSrXT0-JHK-fqhm21-JTSGIrrre5BIvFADSpoPKpr9HzeyG4sZ-XoxXvgKRZPeQh9hAXDpPxsreuj_2mmu7-VFAnSEeC94GTiEuUsv5pym5duB4zJOEQQpCHm59JR2Xhr6zhJpXxPaatAMei7x23SXejvDGRbeUcrV7O2N-JLfytsVemfxEnU9maAzZ-B65k4PLXo8/hls/index.m3u8
+http://117.55.202.236:8008/sunshine/FYnZc2iEbQqP5JZ3YLhGX25dKdt_yl4ILVcUgp3v7mM-m46niPCZorXBM07bquz9VxEJjgXE309OnEbZVkiehkBtg39puUMwmOLBCpQEp-nA10dhZ9LvTydb_ouOk2O7hll1hBuxUIvlBrR_HfrFe08MFCAkwHiqQpriaKumjX_m-oqJVrPc8b3VlaXa7UqKLtGrgWZ1_by9TNKx7UkJbQrXfjmZS30cTUapR-5MccTjrbj2-AE6GGhiocnyHu8d41MZie4Q9b7hlkhFrJH_gbIqVuaGeYwk-MCEWF424nA/hls/index.m3u8
 
-#EXTINF:-1 group-title="TV Andere",face tv
-http://117.55.202.236:8008/sunshine/-ZWnYqgOMZYuSBfwKWQHnm5JltwiHPEyAoChdGs12FfqljocgyA8gUoxWdBXHy-oJVp41uc535NQitQkR0CmhCngUdG3l0cCbMf-CR-vDlhuLVUtkLYb4d0cHGpvuBDvgQc8UjBwRoC-DpkAnHmlSGasrFoHdFVv6mGtg37tI1eWvHPyevS7GiATSNH02NpfyiE-4qVwfQtR63ImdbuRhpFx3BZDw_MQOBui5KpvVd_tzrwGZZyRhEzrpg-MQWjChpkm25kTxZGc1fC120RHjTBjO_Zc6bBPVI_DZxPV6D0/hls/index.m3u8
+
 
 #EXTINF:-1 group-title="TV Andere",happy tv
 http://117.55.202.231:8008/sunshine/KY6Kg3-Fv6tVF8yL81JCXD04EBmH5-u--rrgtv3OyT3xWjhn0vbPtFYrGNb5Ujxu1Hdzdibc0T_Fw4hGKQTqFIGeb_dFcutOiUux92A_7g2R5hZHVsj3ePCtfnuOrvu9xaZI2dPZd0gqoHif1J6jfje_bbEWKO3RJu4JwpWK-_U6vcLyLd9Vq8I00KjknyFhmMWcD8qnldLFNkCq-QLxnnKR5ujZW5zswEZmH2r7kU_ybVul4_nldgMZxIzvXrm1Pd9GNhYppmLMIWvGRazSRITdL6W-UVxb0GjdoMTw0K8/hls/index.m3u8
