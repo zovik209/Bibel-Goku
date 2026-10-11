@@ -295,6 +295,38 @@ https://n1-bg-ku-r1-2.umn.cdn.united.cloud/stream/playlist/hls/?session=825e10d1
 #EXTINF:-1 group-title="Serbien", Sandzak Tv
 https://streaming.iptv.nextfiber.rs/nxt004/576p/media.m3u8
 
+#EXTINF:-1 group-title="Österreich", Orf 2
+https://bx-tv.com/proxy.php?url=http://88.212.15.19/live/test_orf_zwei_tizen/playlist.m3u8
+
+#EXTINF:-1 group-title="Serbien", Panon Tv
+https://stream2.nmih.hu:4102/hls/4d31b565710bc0b9605e139e4b1f99c0/live.m3u8
+
+#EXTINF:-1 group-title="Deutschland", ARD ALPHA
+https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
+
+#EXTINF:-1 group-title="Deutschland", WELT
+https://welt.personalstream.tv/v1/master.m3u8
+
+#EXTINF:-1 group-title="Deutschland", BILD
+https://bild.personalstream.tv/v1/master.m3u8
+
+#EXTINF:-1 group-title="Deutschland", KTV
+https://streamcdnf34-a19bf41486254a3485a864c8b0c14fe1.msvdn.net/live/S28743697/LpD0q2aoyujI/playlist.m3u8
+
+#EXTINF:-1 group-title="Österreich", OE24
+https://oe24.mdn.ors.at/live/eds/oe24tv_hd/hls_nodrm/oe24tv_hd-nodrm.m3u8
+
+#EXTINF:-1 group-title="Bosnien", N1
+https://best-str.umn.cdn.united.cloud/stream?channel=n1bos&p=n1Sh4redSecre7iNf0&sp=n1info&stream=sp1400&u=n1info
+
+#EXTINF:-1 group-title="Kroatien", stv
+http://89.201.163.244:8080/hls/hdmi.m3u8
+
+#EXTINF:-1 group-title="Kroatien", SBTV
+https://live.leveex.hr/hls/live.m3u8
+
+
+
 
 
 
