@@ -283,6 +283,19 @@ https://stream.agatin.hr:3727/live/tvnovalive.m3u8
 #EXTINF:-1 group-title="Deutschland", Gringo Western
 https://amogonetworx-grjngo-3-fi.samsung.wurl.tv/3000.m3u8
 
+#EXTINF:-1 group-title="Serbien", Karolina
+https://peer2.tdiradio.com/static/streaming-playlists/hls/4207de1d-52e8-4591-ad9e-218069b864d1/0.m3u8
+
+#EXTINF:-1 group-title="Serbien", Fm Hit
+https://peer2.tdiradio.com/static/streaming-playlists/hls/bab99862-ec1c-474f-9a02-4f8c8677d565/0.m3u8
+
+#EXTINF:-1 group-title="Serbien", Nova Rs
+https://n1-bg-ku-r1-2.umn.cdn.united.cloud/stream/playlist/hls/?session=825e10d1-8c21-080a-f40e-45232f8c8caa&stream=hp1400&player=m3u8
+
+#EXTINF:-1 group-title="Serbien", Sandzak Tv
+https://streaming.iptv.nextfiber.rs/nxt004/576p/media.m3u8
+
+
 
 
 
